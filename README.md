@@ -86,4 +86,4 @@ WanaCrypt0r
     ".gsm", ".dct", ".flac", ".au", ".aiff", ".aac", ".oma", ".omg", ".atp",
     ".ape", ".avchd", ".f4v", ".webm", "ts.", ".gif", ".pnm", ".pbm", ".pgm", ".svg"`
 >> 
-> @WanaDecryptor@.exe
+> @WanaDecryptor@
