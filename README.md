@@ -91,6 +91,6 @@ WanaCrypt0r
 >> 복호화 관리자
 >> 
 >> 기능
->>> Check Payment
->>> 
->>> RHYA.Network 서버에 접속하여 해당 클라이언트의 복호화 진행 여부 확인
+>>> Check Payment : RHYA.Network 서버에 접속하여 해당 클라이언트의 복호화 진행 여부 확인
+>>
+>>> Decrypt: 파
