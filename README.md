@@ -87,6 +87,9 @@ WanaCrypt0r
     ".ape", ".avchd", ".f4v", ".webm", "ts.", ".gif", ".pnm", ".pbm", ".pgm", ".svg"`
 >> 
 > @WanaDecryptor@
+>> 복호화 관리자
+>> 
 >> 기능
 >>> Check Payment
->>> Decrypt
+>>> 
+>>> RHYA.Network 서버에 접속하여 해당 클라이언트의 복호화 진행 여부 확인
