@@ -23,7 +23,7 @@ WanaCrypt0r
 >> WanaCrypt0r 파일을 담고있는 압축파일 (ZIP 파일 암호: wncry@YhccKSJFE2JhkJJ) 
 >> 
 > e.wnry 
->> @WanaDecrypt0r@.exe 배경화면 이미지 파일 
+>> `@WanaDecrypt0r@.exe` 배경화면 이미지 파일 
 >> 
 > p.wnry (암호화 되어있지 않음) 
 >> 무료 복호화 파일 정보 / 복호화 진행 여부 
