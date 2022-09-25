@@ -42,6 +42,7 @@ WanaCrypt0r
 >> VicTim Name: `RHYA.Network`
 >> 
 >> Copy: `True`
+>> 
 >> ExeName: `WindowsServices.exe`
 >> 
 >> Directory: `%TEMP%`
