@@ -87,3 +87,6 @@ WanaCrypt0r
     ".ape", ".avchd", ".f4v", ".webm", "ts.", ".gif", ".pnm", ".pbm", ".pgm", ".svg"`
 >> 
 > @WanaDecryptor@
+>> 기능
+>>> Check Payment
+>>> Decrypt
