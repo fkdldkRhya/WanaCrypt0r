@@ -35,26 +35,26 @@ WanaCrypt0r
 >> 무료 복호화 파일 정보 / 파일 암호화 키 
 >> 
 > taskdl.exe
->> njRAT 7.0d 로 빌드한 Backdoor
+>> `njRAT 7.0d` 로 빌드한 Backdoor
 >> 
 >> Host: `rhya.ddns.net`
 >> 
 >> VicTim Name: `RHYA.Network`
 >> 
->> Copy: True
->> ExeName: WindowsServices.exe
+>> Copy: `True`
+>> ExeName: `WindowsServices.exe`
 >> 
->> Directory: %TEMP%
+>> Directory: `%TEMP%`
 >> 
->> Protect Process (BSOD): False
+>> Protect Process (BSOD): `False`
 >> 
->> Copy To StartUp: True
+>> Copy To StartUp: `True`
 >> 
->> Registy StarUp: True
+>> Registy StarUp: `True`
 >> 
->> Anti's: True
+>> Anti's: `True`
 >> 
->> Spread: True
+>> Spread: `True`
 >> 
->> Obfuscation: False
+>> Obfuscation: `False`
 >> 
