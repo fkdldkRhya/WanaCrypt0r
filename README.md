@@ -61,7 +61,7 @@ WanaCrypt0r
 > tasksche.exe
 >> 파일 암호화 모듈
 >> 
->> 암호화 대상 확장자                   
+>> <암호화 대상 확장자>                  
 >> `".hwp", ".ppt", ".pptx", ".show", ".xls", ".xlsx", ".cell", ".eml",
     ".doc", ".docx", ".pdf", ".txt", ".log", ".html", ".js", ".ico",
     ".vbs", ".bat", ".cmd", ".sh", ".java", ".class", ".cs", ".m3u",
