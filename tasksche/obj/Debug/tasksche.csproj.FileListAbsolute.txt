@@ -1,0 +1,7 @@
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\bin\Debug\tasksche.exe.config
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\bin\Debug\tasksche.exe
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\bin\Debug\tasksche.pdb
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\obj\Debug\tasksche.csprojAssemblyReference.cache
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\obj\Debug\tasksche.csproj.CoreCompileInputs.cache
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\obj\Debug\tasksche.exe
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\tasksche\obj\Debug\tasksche.pdb

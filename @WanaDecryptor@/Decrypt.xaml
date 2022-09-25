@@ -1,0 +1,80 @@
+﻿<Window x:Class="_WanaDecryptor_.Decrypt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_WanaDecryptor_"
+        mc:Ignorable="d"
+        
+        Title="Decrypt"
+        
+        Height="716.5"
+        Width="688.361"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#FF710909"
+        WindowStyle="ToolWindow">
+    <Grid>
+        <Label
+            Content="Select a host to decrypt and click &quot;Start&quot;."
+            HorizontalAlignment="Left"
+            Margin="10,12,0,0"
+            VerticalAlignment="Top" 
+            Foreground="White"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            FontSize="14"/>
+
+
+        <ComboBox
+            Margin="16,49,0,0"
+            Width="499"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            SelectedIndex="0" >
+
+            <ComboBoxItem Content="My Computer"/>
+        </ComboBox>
+
+
+        <Button
+            Name="StartButton"
+            Content="Start"
+            HorizontalAlignment="Right"
+            Margin="0,48,16,0"
+            VerticalAlignment="Top"
+            Width="136"
+            Height="24" 
+            Click="StartButton_Click"/>
+
+
+        <ListView
+            Name="DecryptLog"
+            Height="546"
+            Margin="16,88,16,0"
+            VerticalAlignment="Top">
+        </ListView>
+
+
+        <Button
+            Name="CloseButton"
+            Content="Close"
+            HorizontalAlignment="Right"
+            Margin="0,0,16,10"
+            VerticalAlignment="Bottom"
+            Width="136"
+            Height="28"
+            Click="CloseButton_Click"/>
+        
+        
+        <Button
+            Name="CopyClipboardButton"
+            Content="Copy to clipboard"
+            HorizontalAlignment="Right"
+            Margin="0,0,165,10"
+            VerticalAlignment="Bottom"
+            Width="136"
+            Height="28" 
+            Click="CopyClipboardButton_Click"/>
+    </Grid>
+</Window>

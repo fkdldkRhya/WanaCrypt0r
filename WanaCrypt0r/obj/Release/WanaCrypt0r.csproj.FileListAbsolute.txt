@@ -1,0 +1,14 @@
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\WanaCrypt0r.exe.config
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\WanaCrypt0r.exe
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\WanaCrypt0r.pdb
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\Newtonsoft.Json.xml
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.csprojAssemblyReference.cache
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.exe.config
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.csproj.CoreCompileInputs.cache
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.csproj.CopyComplete
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.exe
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.pdb
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\DotNetZip.xml
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\bin\Release\System.Diagnostics.DiagnosticSource.xml
+A:\WanaCrypt0r_Project\WanaCrypt0r_Project\WanaCrypt0r\obj\Release\WanaCrypt0r.csproj.Fody.CopyLocal.cache

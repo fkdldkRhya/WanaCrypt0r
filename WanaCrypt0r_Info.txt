@@ -1,0 +1,28 @@
+a.wnry : 암호화 대상 폴더 경로
+
+b.wnry : 클라이언트 정보
+
+c.wnry : 비트코인 주소 정보 파일
+  암호화 내용-> uViTy98qUE03vPikwQas5bCvOlmV7xXo8K1NrOrrZpD4MRAfaGfSKY9MOuYWkcHT
+  암호화 키 -> gDoNGCeWK8Tpv1i7
+
+d.wnry : 랜섬웨어 압축 파일
+  암호 -> wncry@YhccKSJFE2JhkJJ
+  서버 업로드 파일명 -> drop_resources.zip
+
+e.wnry : @WanaDecrypt0r@ 이미지 파일
+
+p.wnry : 무료 복호화 진행 여부
+0000000.bin : 무료 복호화 파일 리스트
+0000000.xkey : 무료 복호화 파일 암호화 키
+
+
+taskdl.exe : njRAT Backdoor
+  Regedit 등록 경로1 -> 컴퓨터\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+  Regedit 등록 경로1 -> 컴퓨터\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+tasksche.exe : 암호화 모듈
+
+@WanaDecryptor@.exe : 복호화 관리자
+
+rhyaLauncher.exe : @WanaDecryptor@.exe 시작 프로그램 등록 전용 프로그램
