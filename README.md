@@ -33,6 +33,7 @@ WanaCrypt0r
 >> 
 > 0000000.xkey (암호화 되어있지 않음) 
 >> 무료 복호화 파일 정보 / 파일 암호화 키 
+>> 
 > taskdl.exe
 >> njRAT 7.0d 로 빌드한 Backdoor
 >> Host: `rhya.ddns.net`
